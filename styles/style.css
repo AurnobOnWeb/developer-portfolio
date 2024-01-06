@@ -95,8 +95,8 @@ nav a {
 }
 /* main section styles */
 main {
-  display: flex;
-  justify-content: center;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 /* about section styles */
 .about {
@@ -104,4 +104,11 @@ main {
   border-radius: 10px;
   background: #fff8f3;
   margin-top: 130px;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info {
+  text-align: center;
 }
