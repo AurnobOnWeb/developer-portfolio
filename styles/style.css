@@ -57,8 +57,9 @@ nav a {
 /* Header Related style */
 .header {
   background-color: #fff8f3;
-  background-image: url("../images/header_bg.png");
-  background-position: right bottom;
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
+  background-position: right bottom, left top;
   background-repeat: no-repeat;
 }
 .banner {
